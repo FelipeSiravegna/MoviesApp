@@ -7,12 +7,9 @@ const SEARCH_API =
 const main = document.getElementById("main");
 const form = document.getElementById("form");
 const search = document.getElementById("search");
-const title = document.getElementById("moviesAppTitle")
 
-title.addEventListener('click', refresh)
-
-function refresh(){
-    window.location.reload();
+function refresh() {
+  window.location.reload();
 }
 
 // Get initial movies
